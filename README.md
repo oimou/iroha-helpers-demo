@@ -1,5 +1,7 @@
 # iroha-helpers-demo
 
+Runs [iroha-helpers](https://www.npmjs.com/package/iroha-helpers) on a web page.
+
 ## Project setup
 ```
 yarn install
