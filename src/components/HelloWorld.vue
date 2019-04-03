@@ -31,7 +31,6 @@
 </template>
 
 <script>
-import grpc from 'grpc'
 import {
   QueryService_v1Client,
   CommandService_v1Client
@@ -49,15 +48,8 @@ export default {
     const adminPriv =
       'f101537e319568c765b2cc89698325604991dca57b9716b58016b253506cab70'
 
-    const commandService = new CommandService_v1Client(
-      IROHA_ADDRESS,
-      grpc.credentials.createInsecure()
-    )
-
-    const queryService = new QueryService_v1Client(
-      IROHA_ADDRESS,
-      grpc.credentials.createInsecure()
-    )
+    const commandService = new CommandService_v1Client(IROHA_ADDRESS)
+    const queryService = new QueryService_v1Client(IROHA_ADDRESS)
 
     Promise.all([
       commands.setAccountDetail({
