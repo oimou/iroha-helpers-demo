@@ -34,7 +34,7 @@
 import {
   QueryService_v1Client,
   CommandService_v1Client
-} from 'iroha-helpers/lib/proto/endpoint_grpc_pb'
+} from 'iroha-helpers/lib/proto/endpoint_pb_service'
 import { commands, queries } from 'iroha-helpers'
 
 export default {
