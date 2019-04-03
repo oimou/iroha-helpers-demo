@@ -667,6 +667,13 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
+"@improbable-eng/grpc-web@^0.9.1":
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/@improbable-eng/grpc-web/-/grpc-web-0.9.1.tgz#61a36fb04f6f2a202fe01b3a35d1fc891cc93933"
+  integrity sha512-KAF0C1ev6fqTF4gC5Bwj4yB1L3Z17oCJe5teNFkETBuDyUKSf/0k9WaBiV/DsIXI3ulv4lA4qEOB4PO9jd0X7w==
+  dependencies:
+    browser-headers "^0.4.0"
+
 "@intervolga/optimize-cssnano-plugin@^1.0.5":
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/@intervolga/optimize-cssnano-plugin/-/optimize-cssnano-plugin-1.0.6.tgz#be7c7846128b88f6a9b1d1261a0ad06eb5c0fdf8"
@@ -1578,6 +1585,11 @@ brorand@^1.0.1:
   resolved "https://registry.yarnpkg.com/brorand/-/brorand-1.1.0.tgz#12c25efe40a45e3c323eb8675a0a0ce57b22371f"
   integrity sha1-EsJe/kCkXjwyPrhnWgoM5XsiNx8=
 
+browser-headers@^0.4.0:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/browser-headers/-/browser-headers-0.4.1.tgz#4308a7ad3b240f4203dbb45acedb38dc2d65dd02"
+  integrity sha512-CA9hsySZVo9371qEHjHZtYxV2cFtVj5Wj/ZHi8ooEsrtm4vOnl9Y9HmyYWk9q+05d7K3rdoAE0j3MVEFVvtQtg==
+
 browserify-aes@^1.0.0, browserify-aes@^1.0.4:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/browserify-aes/-/browserify-aes-1.2.0.tgz#326734642f403dabc3003209853bb70ad428ef48"
@@ -1661,6 +1673,14 @@ buffer-xor@^1.0.3:
   resolved "https://registry.yarnpkg.com/buffer-xor/-/buffer-xor-1.0.3.tgz#26e61ed1422fb70dd42e6e36729ed51d855fe8d9"
   integrity sha1-JuYe0UIvtw3ULm42cp7VHYVf6Nk=
 
+buffer@5.0.2:
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/buffer/-/buffer-5.0.2.tgz#41d0407ff76782e9ec19f52f88e237ce6bb0de6d"
+  integrity sha1-QdBAf/dngunsGfUviOI3zmuw3m0=
+  dependencies:
+    base64-js "^1.0.2"
+    ieee754 "^1.1.4"
+
 buffer@^4.3.0:
   version "4.9.1"
   resolved "https://registry.yarnpkg.com/buffer/-/buffer-4.9.1.tgz#6d1bb601b07a4efced97094132093027c95bc298"
@@ -1669,6 +1689,14 @@ buffer@^4.3.0:
     base64-js "^1.0.2"
     ieee754 "^1.1.4"
     isarray "^1.0.0"
+
+buffer@^5.2.1:
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/buffer/-/buffer-5.2.1.tgz#dd57fa0f109ac59c602479044dca7b8b3d0b71d6"
+  integrity sha512-c+Ko0loDaFfuPWiL02ls9Xd3GO3cPVmUobQ6t3rXNUk304u6hGq+8N/kFi+QEIKhzK3uwolVhLzszmfLmMLnqg==
+  dependencies:
+    base64-js "^1.0.2"
+    ieee754 "^1.1.4"
 
 builtin-status-codes@^3.0.0:
   version "3.0.0"
@@ -2774,6 +2802,13 @@ ecc-jsbn@~0.1.1:
     jsbn "~0.1.0"
     safer-buffer "^2.1.0"
 
+ed25519.js@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/ed25519.js/-/ed25519.js-1.3.0.tgz#11ff48508c4964302179aee33d2f870371df4ad8"
+  integrity sha512-KeS+1N/aTaHQdOIaVxKqfscrb7HRgVfRyOP3QkEGlpcMnuDN/3dVvm5t1/DpsH4NeFrv1g6wtut5vdVMRw4DqQ==
+  dependencies:
+    buffer "5.0.2"
+
 ee-first@1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
@@ -3667,10 +3702,22 @@ globby@^9.0.0:
     pify "^4.0.1"
     slash "^2.0.0"
 
+google-protobuf@^3.7.1:
+  version "3.7.1"
+  resolved "https://registry.yarnpkg.com/google-protobuf/-/google-protobuf-3.7.1.tgz#9ef0fa3bc9ee416ba3fbe32b21ec6b7626f898e2"
+  integrity sha512-6fvlUey6cNKtWSEn1bt4CT4wc2EID1fVluHS1dOnqIlxyIu3cBid2BvWE8Rwl6wN+hRTgiAKhfyydAGV/weZYQ==
+
 graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6:
   version "4.1.15"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.15.tgz#ffb703e1066e8a0eeaa4c8b80ba9253eeefbfb00"
   integrity sha512-6uHUhOPEBgQ24HM+r6b/QwWfZq+yiFcipKFrOFiBEnWdy5sdzYoi+pJeQaPI5qOLRFqWmAXUPQNsielzdLoecA==
+
+grpc-web-client@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/grpc-web-client/-/grpc-web-client-0.7.0.tgz#db19d331ad1fec49ed56744031340ee6af8529b9"
+  integrity sha512-tydslNg6pPHi61aMs0HoaETTtyDR5TQyDZ0AQhbbURpOK2NW8IMrUGs/i1UMkS0H64Vj7PuggSAhDohP41yubQ==
+  dependencies:
+    browser-headers "^0.4.0"
 
 gzip-size@^5.0.0:
   version "5.0.0"
@@ -4147,6 +4194,19 @@ ipaddr.js@^1.9.0:
   resolved "https://registry.yarnpkg.com/ipaddr.js/-/ipaddr.js-1.9.0.tgz#37df74e430a0e47550fe54a2defe30d8acd95f65"
   integrity sha512-M4Sjn6N/+O6/IXSJseKqHoFc+5FdGJ22sXqnjTpdZweHK64MzEPAyQZyEU3R/KRv2GLoa7nNtg/C2Ev6m7z+eA==
 
+iroha-helpers@^0.6.5:
+  version "0.6.5"
+  resolved "https://registry.yarnpkg.com/iroha-helpers/-/iroha-helpers-0.6.5.tgz#360f8a395bc8dc1d8b95e145e5c4fdca9c134bdc"
+  integrity sha512-HOm9tEkvOtgv9ms7H7ixuz/yjkhvL91h/5wNjS+afz7r1+mMO31oLLZtsv5uPk1UTp2LoEZxq7t7KBik1UKWkA==
+  dependencies:
+    "@improbable-eng/grpc-web" "^0.9.1"
+    buffer "^5.2.1"
+    ed25519.js "^1.3.0"
+    google-protobuf "^3.7.1"
+    grpc-web-client "^0.7.0"
+    js-sha3 "^0.8.0"
+    lodash.clonedeep "^4.5.0"
+
 is-absolute-url@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/is-absolute-url/-/is-absolute-url-2.1.0.tgz#50530dfb84fcc9aa7dbe7852e83a37b93b9f2aa6"
@@ -4451,6 +4511,11 @@ js-queue@2.0.0:
   dependencies:
     easy-stack "^1.0.0"
 
+js-sha3@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/js-sha3/-/js-sha3-0.8.0.tgz#b9b7a5da73afad7dedd0f8c463954cbde6818840"
+  integrity sha512-gF1cRrHhIzNfToc802P800N8PpXS+evLLXfsVpowqmAFR9uwbi89WvXg2QspOmXL8QL86J4T1EpFu+yUkwJY3Q==
+
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
@@ -4666,6 +4731,11 @@ locate-path@^3.0.0:
   dependencies:
     p-locate "^3.0.0"
     path-exists "^3.0.0"
+
+lodash.clonedeep@^4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
+  integrity sha1-4j8/nE+Pvd6HJSnBBxhXoIblzO8=
 
 lodash.defaultsdeep@^4.6.0:
   version "4.6.0"
