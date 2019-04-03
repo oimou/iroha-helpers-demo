@@ -44,7 +44,7 @@ export default {
   },
 
   created () {
-    const IROHA_ADDRESS = 'localhost:50051'
+    const IROHA_ADDRESS = 'http://localhost:8081'
     const adminPriv =
       'f101537e319568c765b2cc89698325604991dca57b9716b58016b253506cab70'
 
